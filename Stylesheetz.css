@@ -54,6 +54,7 @@ header:hover::after{
 }
 
 img{
+    position: relative;
     display: grid;
     justify-self: center;
     height: 200px;
