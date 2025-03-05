@@ -1,0 +1,236 @@
+*{
+    font-family: Courier;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:active{
+    color:burlywood;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(154, 101, 31);
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(201, 142, 66);
+}
+
+header{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(247, 206, 144);
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    display:flex;
+    justify-content: space-between;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%; 
+    height: 20%;
+    background: radial-gradient(
+      circle, rgb(89, 49, 9)) 70%;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+header:hover{
+    border-color: rgb(132, 82, 7);
+    background: rgb(178, 121, 48); 
+}
+
+header:hover::after{
+    transform: scale(1);
+}
+
+img{
+    display: grid;
+    justify-self: center;
+    height: 200px;
+    bottom: 20px;
+    width:auto;
+    border-radius: 100px;
+}
+nav{
+    padding: 1px;
+    margin: 1px;
+    height: 20px;
+    width: 500px;
+    background-color: rgb(201, 142, 66);
+    border-radius: 10px;
+    display:flex;
+    height:auto;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.Swifty{
+    margin-left: 3px;
+    padding:0px;
+    background-color: rgb(247, 206, 144);
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.ABOUT{
+    text-align: center;
+}
+.displayMe{
+    text-align: justify;
+    margin:auto;
+    width: 600px;
+    padding:20px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(90deg,rgb(203, 166, 117)40%, rgb(171, 107, 10) 30%,rgb(203, 166, 117) 20% );
+}
+.box1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(203, 166, 117) ;
+}
+.box2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    font-weight: bold;
+    background-color: rgb(203, 166, 117) ;
+}
+.box3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    font-weight: bold;
+    background-color: rgb(203, 166, 117) ;
+}
+.box4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(203, 166, 117) ;
+}
+.comment1{
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+    margin-left: 10px;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgb(0, 0, 0) 0 15px 30px -5px;
+    background-color:  rgb(171, 107, 10);
+}
+.comment2{
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+    margin-left: 10px;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgb(0, 0, 0) 0 15px 30px -5px;
+    background-color:  rgb(171, 107, 10);
+
+}
+.comment3{
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+    margin-left: 10px;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgb(0, 0, 0) 0 15px 30px -5px;
+    background-color:  rgb(171, 107, 10);
+}
+.comment4{
+    position: relative;
+    display: inline-block;
+    font-style: italic;
+    margin-left: 10px;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgb(0, 0, 0) 0 15px 30px -5px;
+    background-color:  rgb(171, 107, 10);
+}
+.aboutMe{
+    padding: 100px;
+    margin: 100px;
+    background-color: rgb(235, 201, 156);
+    border-radius: 500px;
+    transition: all 0.4s ease-in-out;
+    display:grid;
+    column-gap: 1%;
+    text-align: center;
+    font-family: "Courier";
+}
+
+.aboutMe::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background: radial-gradient(
+      circle, rgb(89, 49, 9)) 70%;
+    transform: scale(0);
+    transition: transform 0.5s ease;
+}
+
+.aboutMe:hover{
+    border-color: rgb(178, 121, 48);
+    background: rgb(132, 82, 7); 
+}
+
+.aboutMe:hover::after{
+    transform: scale(1);align-items:flex-start;
+}
+
+.Output{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    background-color: rgb(235, 201, 156);
+    border-radius:20px;
+    align-items: center;
+}
+
+.experience{
+    padding: 10px;
+    margin: 100px;
+    background-color: rgb(235, 201, 156);
+    border-radius:20px;
+    display: flex;
+    justify-self:center;
+    font-weight: bold;
+}
+
+
